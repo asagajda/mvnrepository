@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.adobe.air</groupId>
+    <artifactId>compiler</artifactId>
+    <version>14.0</version>
+    <packaging>pom</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>com.adobe.air.compiler</groupId>
+            <artifactId>adt</artifactId>
+            <version>14.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.air</groupId>
+            <artifactId>framework</artifactId>
+            <version>14.0</version>
+            <type>pom</type>
+        </dependency>
+    </dependencies>
+</project>
