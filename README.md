@@ -1,4 +1,4 @@
-mvnrepository
+mvnrepository [![Build Status](https://travis-ci.org/vpmedia/mvnrepository.svg?branch=master)](https://travis-ci.org/vpmedia/mvnrepository)
 =============
 
 Maven Repository for ActionScript Development
