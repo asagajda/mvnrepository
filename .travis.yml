@@ -21,7 +21,20 @@
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #
 
+# Author: Andras Csizmadia (www.github.com/vpmedia)
+# Version: 1.0.0
+
 git: 
     depth: 1
 
-language: java
+language: objective-c
+
+env:
+    - TERM=dumb
+
+before_script:
+    - brew update
+    - brew install gradle
+
+script:
+    - gradle
